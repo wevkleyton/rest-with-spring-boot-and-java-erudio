@@ -1,11 +1,12 @@
 #spring.application.name=rest-with-spring-boot-and-java-erudio
+#url: jdbc:mysql://localhost:3307/rest_with_spring_boot_udemy?useTimezone=true&serverTimezone=UTC configuração para champp
 
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/rest_with_spring_boot_udemy?useTimezone=true&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3307/rest_with_spring_boot_udemy?useTimezone=true&serverTimezone=UTC
     username: root
-    password: root
+    password: 123456
   jpa:
     hibernate:
       ddl-auto: update
